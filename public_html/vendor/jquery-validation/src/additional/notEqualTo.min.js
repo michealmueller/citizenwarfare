@@ -1,0 +1,1 @@
+$.validator.addMethod("notEqualTo",function(b,a,c){return this.optional(a)||!$.validator.methods.equalTo.call(this,b,a,c)},"Please enter a different value, values must not be the same.");

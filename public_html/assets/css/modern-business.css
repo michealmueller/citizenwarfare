@@ -1,0 +1,260 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #000000;
+    background-image: url("../img/gridbg_glow.png");
+    background-size: 45px;
+    text-transform: none;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.container {
+
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+    height: 300px;
+    width:370px;
+}
+
+.img-hover {
+    background: url("../images/matchDefault_overlay.png") center no-repeat, url("../images/matchDefault.png") center no-repeat;
+    background-size: 370px;
+}
+
+.img-hover:hover{
+    opacity:.6;
+}
+
+video.fullscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+/* Home Page Carousel */
+/*
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: rgba(0,0,0,.5);
+    font-size: .8rem;
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.basicbg{
+    background-color: #1f1f1f;
+}
+
+.well{
+    background-color: rgba(255,255,255,0);
+}
+
+.panel {
+    background-color: rgba(255,255,255,0.3);
+}
+.panel-heading{
+    background-color: #000000;
+    background-color: rgba(255,255,255, 1);
+}
+.panel-body{
+    background-color: rgba(255,255,255,0);
+}
+
+
+body>header {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: #c9c9c9;
+    background-image: url('../images/ollisar.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body>header .header-content {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    padding: 45px 15px;
+    text-align: center;
+    z-index: 2;
+}
+
+body>header .header-content .inner {
+    height:100%;
+}
+
+body>header .header-content .inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body>header .header-content .inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+}
+
+body>header .header-content .inner .button{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.g-brd-around header .header-content{
+    height: 50%;
+}
+
+#video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    z-index: 1;
+}
+
+#video-background.collapsing {
+    display:none;
+}
+
+
+.SCButton{
+    background-image: url("../images/launch_button_plate.png");
+    background-repeat: no-repeat;
+    height:50px;
+}
+
+.textplacing{
+    position: absolute;
+    bottom:35px;
+    left:100px;
+    color: #fff;
+}
+
+.textplacing-news{
+    position: absolute;
+    bottom:45px;
+    left:120px;
+    color: #fff;
+}
+
+.page-header{
+    background-image: url("../images/illuminator_top2.1.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    opacity: .6;
+    font-family: 'orbitron', cursive;
+    text-transform: none;
+    text-align: center;
+}
+
+.customners{
+    width: 160px;
+    height:5px;
+    overflow: hidden;
+}
+
+.small_header{
+    height: 30%;
+}
+
+.custom-file-control{
+    border: #9a0009;
+    color: #ffffff;
+}
+.custom-file-control:hover{
+    border: #e81c62 !important;
+    color: #e81c62 !important;
+}
+
+.short{
+    height: 150px;
+}

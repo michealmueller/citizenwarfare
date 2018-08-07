@@ -1,0 +1,59 @@
+.ladder{
+    margin:0 auto;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.panel-heading h4{
+    background-color: grey;
+}
+
+.container .row .col-md-4{
+    padding-bottom: 25px;
+}
+
+.list-group-item
+{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: transparent;
+}
+.toggleable-form
+{
+    display: none;
+}
+
+.toggleable-value
+{
+    display: block;
+}
+
+.editButton
+{
+    background-color: transparent;
+    border: none;
+}
+
+p
+{
+    color: #bbb6b8;
+}
+/*########################*/
+.btn-bs-file{
+    position:relative;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}

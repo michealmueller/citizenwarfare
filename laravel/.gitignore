@@ -1,0 +1,15 @@
+/laravel/node_modules
+/laravel/public/storage
+/laravel/public/hot
+/laravel/storage/*.key
+/public_html/vendor
+/.idea
+/.vagrant
+/.env
+/public_html/Homestead.json
+/public_html/Homestead.yaml
+/laravel/.env
+_ide_helper.php
+/laravel/tests
+
+/vendor/

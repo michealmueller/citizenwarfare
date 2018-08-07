@@ -1,0 +1,19 @@
+{
+	"name": "inc/magpierss",
+	"description": "RSS Reader for PHP - Magpie",
+	"keywords": ["rss", "atom", "feed", "Magpie"],
+	"homepage": "https://github.com/dg/rss-php",
+	"license": ["BSD-3-Clause"],
+	"authors": [
+		{
+			"name": "Micheal Mueller",
+			"homepage": "http://muellertek.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
